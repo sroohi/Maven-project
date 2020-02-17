@@ -1,0 +1,19 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="driver1" class="com.abc.rab3.Driver">
+		<property name="id" value="1010"></property>
+		<property name="name" value="shawn"></property>
+		<property name="license" value="VA-4664"></property>
+		</bean>
+
+		<bean id="veh1" class="com.abc.rab3.Vehicle">
+			<constructor-arg value="toyota" />
+			<constructor-arg value="rav4" />
+			<constructor-arg value="gray" />
+		</bean>
+
+
+</beans>
