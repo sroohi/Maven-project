@@ -14,6 +14,11 @@
 			<constructor-arg value="rav4" />
 			<constructor-arg value="gray" />
 		</bean>
+		<bean id="veh2" class="com.abc.rab3.Vehicle">
+			<constructor-arg value="Honda" />
+			<constructor-arg value="Accord" />
+			<constructor-arg value="White" />
+		</bean>
 
 
 </beans>

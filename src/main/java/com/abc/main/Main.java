@@ -16,6 +16,9 @@ public class Main {
 
 		Vehicle v1 = (Vehicle) ctx.getBean("veh1");
 		System.out.println(v1.toString());
+		
+		Vehicle v2 = (Vehicle) ctx.getBean("veh2");
+		System.out.println(v2.toString());
 
 	}
 }
